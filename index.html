@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    font-family: arial;
+    background: -webkit-linear-gradient(to right,#155799, #159957);
+    background: linear-gradient(to right, #155799, #159957);
+    color: whitesmoke;
+}
+h1{
+    text-align: center;
+}
+.form{
+    width: 350px;
+    margin: auto;
+    color: whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(223, 223, 223, 0.582);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 16px;
+}
+input[type=text], input[type=password], input[type=email]{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+    border-top: 2px solid rgb(33, 21, 21);
+    border-left: 2px solid rgb(33, 21, 21);
+    border-right: none;
+    border-bottom: none;
+}
+a{
+    background-color: #050806;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    margin-top: 10px;
+}
+a:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+        .login-box{
+            padding: 16px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="login-box">
+        <h1>Register
+            
+        </h1>
+        <div class="form">
+            <label for="username">your Username</label>
+            <input type="text" placeholder="Enter Username" name="username" required><br><br>
+
+            <label for="email">your Email</label>
+            <input type="email" placeholder="Enter email" name="email" required><br><br>
+
+            <label for="password">your Password</label>
+            <input type="password" placeholder="Enter Password" name="password" required><br><br>
+
+            <label for="confirm password">your Confirm Password</label>
+            <input type="password" placeholder="Enter confirm Password" name="confirm password" required><br><br>
+
+            <a href="login.html">Register</a>
+        </div>
+    </div>
+</body>
+
+</html>
